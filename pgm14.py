@@ -1,0 +1,6 @@
+color_list1=set(["white","black","red"])
+color_list2=set(["red","green"])
+print("Original set elements")
+print(color_list1)
+print(color_list2)
+print("Difference of color list1 and list2",color_list1.difference(color_list2))

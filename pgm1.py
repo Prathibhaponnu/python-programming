@@ -1,7 +1,11 @@
-from datetime import datetime
-current_Year=datetime.today().year
-final_Year=int(input("Enter the final year:"))
-print("List of leap years")
-for year in range(current_Year,final_Year):
-    if(year%4==0) and (year%100!=0) or(year%400==0):
-        print(year)
+b=int(input("Enter the base of the triangle:"))
+h=int(input("Enter the height of the triangle:"))
+area1=1/2*b*h
+print("Area of the triangle",area1)
+l=int(input("Enter the length of the rectangle:"))
+b=int(input("Enter the breadth of the rectangle:"))
+area2=l*b
+print("Area of the rectangle",area2)
+r=float(input("Enter the radius of the circle:"))
+area3=3.14*r*r
+print("Area of the circle:",area3)
